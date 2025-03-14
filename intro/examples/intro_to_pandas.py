@@ -72,9 +72,13 @@ df['Start_Date'] = pd.to_datetime(df['Start_Date'])
 
 # Basic DataFrame operations
 print(df.head())        # First 5 rows
+print("------")
 print(df.info())        # DataFrame info
+print("------")
 print(df.describe())    # Statistical summary
+print("------")
 print(df.columns)       # Column names
+print("------")
 print(df.shape)         # Dimensions
 
 """## Data Selection and Indexing"""
@@ -108,7 +112,11 @@ subset = df.iloc[0:3, 0:2]  # First 3 rows, first 2 columns
 print(value)
 print(subset)
 
-""" Handling Missing Data """
+
+
+"""# Handling Missing Data
+
+"""
 
 print("Missing values:")
 print(df.isnull().sum())
@@ -140,12 +148,12 @@ df['name'] = df['name'].str.upper()           # Change names to uppercase
 df['name_length'] = df['name'].str.len()      # Calculate length of names
 
 # Categorical encoding
-df['department'] = pd.Categorical(df['department'])  # Changed 'category' to 'Department'
+df['department'] = pd.Categorical(df['department'])
 dummy_vars = pd.get_dummies(df['department'])        # Create dummy variables
 
 # Applying functions
-df['age_squared'] = df['age'].apply(lambda x: x**2 if pd.notnull(x) else np.nan)  # Changed 'age' to 'Age', handle NaN
-df['age_group'] = pd.cut(df['age'], bins=[0, 18, 35, 50, 65, 100])               # Changed 'age' to 'Age'
+df['age_squared'] = df['age'].apply(lambda x: x**2 if pd.notnull(x) else np.nan)
+df['age_group'] = pd.cut(df['age'], bins=[0, 18, 35, 50, 65, 100])
 
 # Print results to see the changes
 print("Modified DataFrame:")
@@ -268,15 +276,18 @@ print("Sample of new features:")
 print(df[['Start_Date', 'year', 'month', 'day_of_week',
          'value', 'z_score', 'pct_rank', 'rolling_mean']].head())
 
+df.head()
+
 """## Best Practices: Use Proper Data Types"""
 
 # Convert to Pandas category type  when there are multiple repeated values
 # This is more memory efficient than storing strings and enables better
 #   performance when sorting & grouping
+
 df['category'] = df['category'].astype('category')
 
 # Use appropriate numeric types
-df['integer_id'] = df['integer_id'].astype('int32')
+df['month'] = df['month'].astype('int32')
 
 """## Best Practices: Vectorized Ops, Not Loops
 For a DataFrame with 1 million rows, the loop version could take seconds or minutes, while the vectorized version may complete in just milliseconds
@@ -288,6 +299,7 @@ for i in range(len(df)):
 
 # Good (fast):
 df['new_col'] = df['old_col'] * 2
+df.head()
 
 """## Best Practices: Chain Methods Efficiently"""
 
