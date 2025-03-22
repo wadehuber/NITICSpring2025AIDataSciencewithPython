@@ -1,0 +1,17 @@
+stu_id,assignment_id,score,submission_time,feedback
+001,A101,87.5,2022-10-15 14:30:00,Good analysis but missing conclusion
+002,A101,92.3,2022-10-15 09:45:00,Excellent work
+003,A101,76.8,2022-10-15 23:59:59,Needs more detail
+004,A101,88.9,2022-10-15 16:20:00,Well structured
+005,A101,45.5,2022-10-16 00:30:00,Incomplete submission
+006,A101,94.7,2022-10-14 11:15:00,Outstanding
+007,A101,82.1,2022-10-15 22:00:00,Good effort
+008,A101,79.5,2022-10-15 17:45:00,Satisfactory
+009,A101,,
+010,A101,88.6,2022-10-15 10:30:00,Good work
+011,A101,91.2,2022-10-14 16:45:00,Very thorough
+012,A101,72.4,2022-10-15 23:50:00,Lacking key concepts
+013,A101,84.8,2022-10-15 14:15:00,Solid understanding
+014,A101,90.3,2022-10-15 08:30:00,Excellent insights
+S-015,A101,77.9,2022-10-15 19:45:00,Could improve organization
+016,A101,83.5,2022-10-15 12:20:00,Good application of concepts

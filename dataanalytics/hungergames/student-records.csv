@@ -1,0 +1,17 @@
+student_id,first_name,last_name,district,registration_date,status
+S-001,Katniss,Everdeen,12,2022-09-01,Active
+S-002,Peeta,Mellark,12,2022-09-01,Active
+ID003,Gale,Hawthorne,12,9/2/2022,active
+S-004,Primrose,Everdeen,12,2022-09-03,Active
+005,Haymitch,Abernathy,12,9/1/2022,ACTIVE
+S-006,Effie,Trinket,Capitol,2022-09-01,Active
+ID007,Cinna,,Capitol,2022/09/04,active
+S-008,Rue,,11,2022-09-02,Inactive
+009,Thresh,,11,9/2/2022,ACTIVE
+S-010,Clove,,2,2022-09-01,Active
+ID011,Cato,,2,9/1/2022,active
+S-012,Foxface,,5,2022-09-03,
+S-013,Johanna,Mason,7,2022-09-04,Active
+ID014,Finnick,Odair,4,9/5/2022,active
+,Beetee,Latier,3,2022-09-05,Active
+S-016,Annie,Cresta,4,2022-09-06,Active

@@ -1,0 +1,10 @@
+assignment_id,title,due_date,max_points,weight,category
+A101,Data Analysis Basics,2022-10-15,100,15%,Assignment
+A102,Statistical Methods,2022-10-30,100,20%,Assignment
+A103,Visualization Techniques,2022-11-15,100,15%,Assignment
+Q101,Quiz 1,2022-09-20,50,5%,Quiz
+Q102,Quiz 2,2022-10-05,50,5%,Quiz
+Q103,Quiz 3,2022-10-25,50,5%,Quiz
+Q104,Quiz 4,2022-11-10,50,5%,Quiz
+M101,Midterm Exam,2022-11-01,100,15%,Exam
+F101,Final Project,2022-12-10,100,15%,Project
